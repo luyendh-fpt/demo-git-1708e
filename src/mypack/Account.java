@@ -49,7 +49,11 @@ public class Account {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
 	return "Say hello again";
+=======
+        return "Hello toString";
+>>>>>>> de956b7c43f692e8fab3cfc4264b5bf10e370bd6
     }
 
 
