@@ -13,6 +13,10 @@ public class Account {
 
     private int id;
     private String name;
+    
+    public void functionByDev1(){
+        System.out.println("Dev 1");
+    }
 
     public void functionByDev2(){
        System.out.println("Your balance by dev2");
