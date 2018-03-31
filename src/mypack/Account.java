@@ -15,7 +15,7 @@ public class Account {
     private String name;
     
     public void functionByDev2(){
-       System.out.println("Your balance by dev2");
+       System.out.println("Hello Dev2");
     }
 
     public void getBalance(){
