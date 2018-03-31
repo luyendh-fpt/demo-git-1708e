@@ -14,6 +14,10 @@ public class Account {
     private int id;
     private String name;
 
+    public void functionByDev2(){
+       System.out.println("Your balance by dev2");
+    }
+
     public void getBalance(){
        System.out.println("Your balance");
     }
