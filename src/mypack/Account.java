@@ -14,6 +14,10 @@ public class Account {
     private int id;
     private String name;
 
+    public void getBalance(){
+       System.out.println("Your balance");
+    }
+
     public Account(int id, String name) {
         this.id = id;
         this.name = name;
