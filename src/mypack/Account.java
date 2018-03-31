@@ -51,5 +51,9 @@ public class Account {
     public String toString() {
         return "Hello toString";
     }
+    
+    public void sayHello(){
+        
+    }
 
 }
