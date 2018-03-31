@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mypack;
+package entity;
 
 /**
  *
@@ -13,19 +13,12 @@ public class Account {
 
     private int id;
     private String name;
-    
-    public void functionByDev2(){
-       System.out.println("Fix again.");
-    }
+    private int balance;
 
-    public void getBalance(){
-       System.out.println("Your balance");
-    }
-
-    public Account(int id, String name) {
-        this.id = id;
+    public Account(String name, int balance) {
         this.name = name;
-    }        
+        this.balance = balance;
+    }
 
     public int getId() {
         return id;
@@ -43,18 +36,13 @@ public class Account {
         this.name = name;
     }
 
-    public Account(String name) {
-        this.name = name;
+    public int getBalance() {
+        return balance;
     }
 
-    @Override
-    public String toString() {
-<<<<<<< HEAD
-	return "Say hello again";
-=======
-        return "Hello toString";
->>>>>>> de956b7c43f692e8fab3cfc4264b5bf10e370bd6
+    public void setBalance(int balance) {
+        this.balance = balance;
     }
-
-
+    
+       
 }
