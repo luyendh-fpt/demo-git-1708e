@@ -15,7 +15,7 @@ public class Account {
     private String name;
     
     public void functionByDev2(){
-       System.out.println("Hello dev1");
+       System.out.println("i said hi dev2.");
     }
 
     public void getBalance(){
@@ -49,7 +49,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" + "id=" + id + ", name=" + name + '}';
+        return "Hello toString";
     }
 
 }
