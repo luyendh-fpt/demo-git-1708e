@@ -13,19 +13,7 @@ public class Account {
 
     private int id;
     private String name;
-    
-    public void functionByDev2(){
-       System.out.println("Fix again.");
-    }
-
-    public void getBalance(){
-       System.out.println("Your balance");
-    }
-
-    public Account(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }        
+    private int balance;
 
     public int getId() {
         return id;
@@ -43,18 +31,22 @@ public class Account {
         this.name = name;
     }
 
-    public Account(String name) {
+    public int getBalance() {
+        return balance;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
+    public Account(String name, int balance) {
         this.name = name;
+        this.balance = balance;
     }
 
     @Override
     public String toString() {
-<<<<<<< HEAD
-	return "Say hello again";
-=======
-        return "Hello toString";
->>>>>>> de956b7c43f692e8fab3cfc4264b5bf10e370bd6
+        return "Account{" + "id=" + id + ", name=" + name + ", balance=" + balance + '}';
     }
-
 
 }
