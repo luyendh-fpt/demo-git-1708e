@@ -10,6 +10,7 @@ package mypack;
  * @author xuanhung
  */
 public class Account {
+
     private int id;
     private String name;
 
@@ -32,5 +33,10 @@ public class Account {
     public Account(String name) {
         this.name = name;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Account{" + "id=" + id + ", name=" + name + '}';
+    }
+
 }
